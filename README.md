@@ -32,3 +32,23 @@ Generated reports are saved in the `output/` directory.
 ```bash
 pip install -r requirements.txt
 python main.py
+
+### Run all checks
+```bash
+python main.py --service all
+```
+
+### Run only S3 checks
+```bash
+python main.py --service s3
+```
+
+### Run only EC2 checks
+```bash
+python main.py --service ec2
+```
+
+### Run only IAM checks
+```bash
+python main.py --service iam
+```
