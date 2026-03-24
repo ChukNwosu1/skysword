@@ -7,6 +7,9 @@ SkySword is a Python-based cloud security tool designed to identify AWS misconfi
 - Detects potential public bucket exposure through ACLs
 - Classifies findings as High or Medium
 - Generates a security score out of 100
+- Scans AWS EC2 security groups
+- Detects public inbound exposure to 0.0.0.0/0
+- Flags SSH (22) and RDP (3389) exposure as Critical
 
 ## Planned Features
 - IAM misconfiguration checks
