@@ -1,17 +1,27 @@
 # SkySword
 
-SkySword is a cloud security tool built in Python to identify AWS misconfigurations, classify findings by severity, and generate a simple security score.
+SkySword is a Python-based cloud security tool designed to identify AWS misconfigurations, classify findings by severity, and generate a simple security score.
 
-## Goals
-- Detect common AWS security misconfigurations
-- Classify findings as Critical, High, or Medium
-- Generate a security score out of 100
-- Serve as a cloud security portfolio project
+## Current Features
+- Scans AWS S3 buckets
+- Detects potential public bucket exposure through ACLs
+- Classifies findings as High or Medium
+- Generates a security score out of 100
+
+## Planned Features
+- IAM misconfiguration checks
+- EC2 security group exposure checks
+- Critical / High / Medium risk mapping
+- Exportable findings report
+- Dashboard integration
 
 ## Tech Stack
 - Python
 - Boto3
 - AWS
 
-## Status
-Initial project structure in progress.
+## Usage
+
+```bash
+pip install -r requirements.txt
+python main.py
