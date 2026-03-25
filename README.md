@@ -13,6 +13,7 @@ SkySword is a Python-based cloud security tool designed to identify AWS misconfi
 - Exports scan findings to a timestamped JSON report
 - Scans IAM policies for overly permissive access
 - Detects wildcard (*) permissions and admin-level policies
+- Colorized terminal output by severity level
 
 ## Planned Features
 - IAM misconfiguration checks
@@ -25,6 +26,7 @@ SkySword is a Python-based cloud security tool designed to identify AWS misconfi
 - Python
 - Boto3
 - AWS
+- Colorama
 
 ## Usage
 Generated reports are saved in the `output/` directory.
